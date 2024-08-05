@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img {
+  @apply xxs:mx-auto xxs:my-[2rem];
+}
+.heading {
+  @apply font-bold xxs:my-[1rem] xxs:text-[1.2rem] xxs:text-center font-primary;
+}
+.para {
+  @apply xxs:text-center xs:text-center xxs:mx-[1rem] xs:mx-[1rem] xxs:text-[0.85rem] md:px-[4rem];
+}
+.feature-block {
+  @apply xxs:my-[2rem] xs:my-[2rem];
+}
+@layer components {
+  .msg {
+    @apply text-xs text-rose-300;
+  }
+}
