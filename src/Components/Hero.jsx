@@ -6,7 +6,7 @@ const Hero = () => {
       <section className="text-White mx-auto xxs:p-6 sm:p-8 md:p-10 section-intro  xxs:grid xxs:grid-cols-1  xs:grid xs:grid-cols-1 bg-DarkBlue1  md:pb-0 ">
         <div className="image-block ">
           <img
-            src="/public/images/illustration-intro.png"
+            src="./images/illustration-intro.png"
             alt="intro illustration"
             className="mx-auto hover:hue-rotate-180 "
           />
