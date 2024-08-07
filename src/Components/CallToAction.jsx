@@ -25,9 +25,9 @@ const CallToAction = () => {
   xxs:right-5
     "
     >
-      <h5 className="font-bold xxs:text-sm   font-secondary md:text-2xl">
+      <h1 className="font-bold xxs:text-sm   font-secondary md:text-2xl">
         Get early access today
-      </h5>
+      </h1>
       <p className="xxs:text-[0.65rem] xxs:leading-5">
         {" "}
         It only takes a minute to sign up and our free starter tier is extremely
@@ -56,8 +56,7 @@ const CallToAction = () => {
           "
           />
 
-          <a
-            href="#"
+          <button
             type="submit"
             className="font-bold rounded-3xl bg-gradient-to-r from-Cyan to-Blue
             shadow-medium xxs:w-[100%] 
@@ -74,7 +73,7 @@ const CallToAction = () => {
           "
           >
             Get Started For Free
-          </a>
+          </button>
           <ErrorMessage name="email" component="div" className="msg" />
         </Form>
       </Formik>

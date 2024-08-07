@@ -12,6 +12,7 @@ const Footer = () => {
       <section className="section-footer pb-10   md:grid md:grid-cols-6 items-center gap-x-2 ">
         <a
           href="#"
+          aria-label="footer-logo"
           className="text-white xxs:p-4 inline-block xxs:pl-0 md:w-[100%]  "
         >
           <img src="./images/logo.svg" alt="footer logo" />
@@ -66,16 +67,16 @@ const Footer = () => {
           </div>
         </div>
         <div className="info flex flex-col xxs:space-y-4 md:items-center md:space-y-4 md:mt-6">
-          <a href="" className="      hover:font-bold">
+          <a href="" className="      hover:font-bold" aria-label="info">
             About Us
           </a>
-          <a href="" className="      hover:font-bold">
+          <a href="" className="      hover:font-bold" aria-label="info">
             Jobs
           </a>
-          <a href="" className="      hover:font-bold">
+          <a href="" className="      hover:font-bold" aria-label="info">
             Press
           </a>
-          <a href="" className="      hover:font-bold">
+          <a href="" className="      hover:font-bold" aria-label="info">
             Blog
           </a>
         </div>
@@ -85,25 +86,25 @@ const Footer = () => {
  
         "
         >
-          <a href="" className="      hover:font-bold">
+          <a href="" className="      hover:font-bold" aria-label="info">
             Contact Us
           </a>
-          <a href="" className="      hover:font-bold">
+          <a href="" className="      hover:font-bold" aria-label="info">
             Terms
           </a>
-          <a href="" className="      hover:font-bold">
+          <a href="" className="      hover:font-bold" aria-label="info">
             Privacy
           </a>
         </div>
 
         <div className="social flex justify-center xxs:space-x-4 md:-mt-20">
-          <a href="">
+          <a href="" aria-label="social">
             <i className="fa-brands fa-facebook  hover:text-Cyan"></i>
           </a>
-          <a href="">
+          <a href="" aria-label="social">
             <i className="fa-brands fa-twitter hover:text-Cyan"></i>
           </a>
-          <a href="">
+          <a href="" aria-label="social">
             <i className="fa-brands fa-instagram hover:text-Cyan"></i>
           </a>
         </div>
