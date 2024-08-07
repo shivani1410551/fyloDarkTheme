@@ -25,9 +25,9 @@ const CallToAction = () => {
   xxs:right-5
     "
     >
-      <h1 className="font-bold xxs:text-sm   font-secondary md:text-2xl">
+      <h2 className="font-bold xxs:text-sm   font-secondary md:text-2xl">
         Get early access today
-      </h1>
+      </h2>
       <p className="xxs:text-[0.65rem] xxs:leading-5">
         {" "}
         It only takes a minute to sign up and our free starter tier is extremely
