@@ -7,10 +7,18 @@ import Footer from "./Components/Footer";
 const App = () => {
   return (
     <div className="font-secondary bg-DarkBlue2  hover:animate">
-      <Navbar />
-      <Hero />
-      <Testimonials />
-      <CallToAction />
+      <header>
+        {" "}
+        <Navbar />
+      </header>
+
+      <main>
+        {" "}
+        <Hero />
+        <Testimonials />
+        <CallToAction />
+      </main>
+
       <Footer />
     </div>
   );
