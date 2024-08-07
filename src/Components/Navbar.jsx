@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <header
+    <nav
       className="mx-auto xxs:p-4
     xs:p-6 sm:p-8 md:p-10
     text-slate-200
@@ -34,7 +34,7 @@ const Navbar = () => {
           <a href="#">Sign In</a>
         </li>
       </ul>
-    </header>
+    </nav>
   );
 };
 

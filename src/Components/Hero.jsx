@@ -2,7 +2,7 @@ import Features from "./Features";
 import StayProductive from "./StayProductive";
 const Hero = () => {
   return (
-    <main>
+    <header>
       <section className="text-White mx-auto xxs:p-6 sm:p-8 md:p-10 section-intro  xxs:grid xxs:grid-cols-1  xs:grid xs:grid-cols-1 bg-DarkBlue1  md:pb-0 ">
         <div className="image-block ">
           <img
@@ -40,7 +40,7 @@ const Hero = () => {
 
       <Features />
       <StayProductive />
-    </main>
+    </header>
   );
 };
 

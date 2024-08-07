@@ -1,6 +1,6 @@
 const Features = () => {
   return (
-    <>
+    <main>
       {" "}
       <section className="curves bg-DarkBlue1 flex justify-center md:-mt-[15rem] -z-10 ">
         <img
@@ -70,7 +70,7 @@ const Features = () => {
           </p>
         </div>
       </section>
-    </>
+    </main>
   );
 };
 
