@@ -26,7 +26,7 @@ const Features = () => {
             alt="icon access anywhere"
             className="img"
           />
-          <h1 className="heading ">Access your files, anywhere </h1>
+          <h2 className="heading ">Access your files, anywhere </h2>
           <p className="para ">
             The ability to use a smartphone, tablet, or computer to access your
             account means your files follow you everywhere.

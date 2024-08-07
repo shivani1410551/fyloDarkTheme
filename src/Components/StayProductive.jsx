@@ -18,10 +18,10 @@ const StayProductive = () => {
         />
       </div>
       <div className="text-block md:pr-24 md:pl-4">
-        <h1 className="font-bold xxs:text-xl xxs:pt-2  md:text-3xl md:pr-24 ">
+        <h2 className="font-bold xxs:text-xl xxs:pt-2  md:text-3xl md:pr-24 ">
           {" "}
           Stay productive, wherever you are{" "}
-        </h1>
+        </h2>
         <p className=" py-2 text-sm my-2">
           Never let location be an issue when accessing your files. Fylo has you
           covered for all of your file storage needs.
